@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>Projects</title>
+    <meta charset="utf-8">
+    <noscript>
+        Please enable Javascript before loading up this page or it wont work.
+    </noscript>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id = "line"></div>
+    
+    <div id = "clock">   
+        <h1 id = "year"></h1>
+        <h2 id = "time"></h2>
+            <br/>
+        <b><p id ="yazi"></p></b>
+    </div>
+
+    <div id = "bgcolor">
+        <h3> Write A Color And It Shall Become The Background</h3>
+            <br/>
+        <form>
+            <input type="text" id="cc">
+            <br/><br/>
+            <input type="button" value="Change" onclick="getCode()">
+        </form>
+    </div>
+
+    <div id = "guess">
+        <h3> Guess The Number Win The Prize</h3>
+        <form>
+        1<input type="radio" value = "1" name="rad">&nbsp&nbsp&nbsp&nbsp         
+        2<input type="radio" value = "2" name="rad">&nbsp&nbsp&nbsp&nbsp 
+        3<input type="radio" value = "3" name="rad">&nbsp&nbsp&nbsp&nbsp 
+        <br/>
+        4<input type="radio" value = "4" name="rad">&nbsp&nbsp&nbsp&nbsp 
+        5<input type="radio" value = "5" name="rad">&nbsp&nbsp&nbsp&nbsp 
+        6<input type="radio" value = "6" name="rad">&nbsp&nbsp&nbsp&nbsp 
+        <br/>
+        7<input type="radio" value = "7" name="rad">&nbsp&nbsp&nbsp&nbsp 
+        8<input type="radio" value = "8" name="rad">&nbsp&nbsp&nbsp&nbsp 
+        9<input type="radio" value = "9" name="rad">&nbsp&nbsp&nbsp&nbsp
+        <br/><br/>  
+        <input type="button" value="Check" onclick="checkG()">
+        <input type="button" id="tip" onclick="showTip()" value="Tip">
+    </form>
+    <p id="gmesaj"></p>
+    </div>
+
+    <div id = "aut">
+        <canvas id="can" width="200" height="70"></canvas>
+        <br/> <br/> <br/> <br/> <br/> <br/>
+        <form>   
+        <input type="text" id="au">
+        <br/> <br/> 
+        <input type="button" value="Submit" onclick="checkG()">
+        </form>
+        <p id="mau"></p>
+    </div>
+
+    <script type="text/javascript" lang="javascript" src="projects.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+body{
+    background-color: #00001a;
+}
+
+input[type=button]{
+    border-radius: 4px;
+    font-size: 20px;
+    border-color: white;
+    background-color: #262626;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+input[type=text]{
+    border-radius: 4px;
+    font-size: 15px;
+    border-color: white;
+    background-color: #262626;
+    color: white;
+    padding: 5px 0px 5px 20px;
+}
+
+#clock{
+    border: 2px solid #595959;
+    width: 25%;
+    position: absolute;
+    left: 10%;
+    top: 12%;
+    height: 30%;
+    background-color:  #262626;
+    text-align: center;
+    color: white;
+}
+
+#bgcolor{
+    border: 2px solid #595959;
+    width: 25%;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    height: 30%;
+    background-color:  #262626;
+    text-align: center;
+    color: white;
+}
+
+#guess{
+    border: 2px solid #595959;
+    width: 25%;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    height: 30%;
+    background-color:  #262626;
+    text-align: center;
+    color: white;
+}
+
+#tip{
+    position:absolute;
+    top:75%;
+    left: 5%;
+}
+
+#gmesaj{
+    position:absolute;
+    top:65%;
+    left: 80%;
+}
+
+#aut{
+    border: 2px solid #595959;
+    width: 25%;
+    position: absolute;
+    left: 60%;
+    top: 12%;
+    height: 30%;
+    background-color:  #262626;
+    text-align: center;
+    color: white;
+}
+
+#can{
+    position: absolute;
+    top: 8%;
+    left:20%;
+}
+
+#mau{
+    position: relative;
+    top: -30%;
+    left: 35%;
+}
+
+#line{
+    position:absolute;
+    left: 47%;
+    border-left: 2px solid green;
+    height:98%;
+}
